@@ -1,9 +1,13 @@
+import { Hero } from "./sections";
 import Nav from "./components/Nav";
 
 export default function App() {
   return (
-    <main className="relative">
+    <main>
       <Nav />
+      <section >
+       <Hero />
+      </section>
     </main>
   )
 }
