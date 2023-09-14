@@ -1,5 +1,5 @@
 
-const Button = ({label, backgroundColor, textColor, icon, }) => {
+const Button = ({label, backgroundColor, textColor, icon }) => {
   return (
     <button className={`flex justify-between
     items-center gap-2 pl-4 pr-1 py-4 border 

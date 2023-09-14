@@ -5,7 +5,7 @@ export default function App() {
   return (
     <main>
       <Nav />
-      <section >
+      <section>
        <Hero />
       </section>
     </main>

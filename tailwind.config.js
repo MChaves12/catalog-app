@@ -34,6 +34,8 @@ export default {
       backgroundImage: {
         'hero': "url('assets/images/hero1.jpg')",
         'card': "url('assets/images/thumbnail-background.svg')",
+        'ouro': "url('assets/images/ouro.jpg')",
+        'prata': "url('assets/images/prata.jpg')"
       },
       screens: {
         "wide": "1440px"
