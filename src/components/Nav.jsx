@@ -3,7 +3,7 @@ import { navLinks } from "../constants";
 
 const Nav = () => {
   return (
-    <header className="padding-x py-4 z-10 w-full bg-slate-800">
+    <header className="padding-x py-4 z-10 relative w-full">
       <nav className="flex justify-between max-containe">
         <a href="/">
           <img src={logo} alt="Logo" width={90} height={24} />
@@ -13,7 +13,7 @@ const Nav = () => {
             <li key={link.label}>
               <a
                 href={link.href}
-                className="font-montserrat leading-normal text-sm text-white"
+                className="font-montserrat leading-normal text-sm text-green-400"
               >
                 {link.label}
               </a>
