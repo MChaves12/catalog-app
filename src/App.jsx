@@ -1,4 +1,4 @@
-import { Hero, About, ShopByEssentials, WhoWeAre } from "./sections";
+import { Hero, About, ShopByEssentials, WhoWeAre, Footer } from "./sections";
 import Nav from "./components/Nav";
 
 export default function App() {
@@ -20,6 +20,10 @@ export default function App() {
 
       <section>
         <WhoWeAre />
+      </section>
+
+      <section className="bg-black padding-x padding-t pb-8 mt-10">
+        <Footer />
       </section>
       
     </main>
