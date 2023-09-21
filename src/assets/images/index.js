@@ -8,6 +8,7 @@ import pulseiraPrata from './pulseiraPrata.jpg';
 import brincoOuro from './brincoOuro.jpg';
 import colarOuro from './colarOuro.jpg';
 import pulseiraOuro from './pulseiraOuro.jpg';
+import whoWeAreImg from './WhoWeAreImg.jpg';
 
 export {
     logo,
@@ -20,4 +21,5 @@ export {
     brincoOuro,
     colarOuro,
     pulseiraOuro,
+    whoWeAreImg,
 }

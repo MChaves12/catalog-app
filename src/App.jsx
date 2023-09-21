@@ -1,4 +1,4 @@
-import { Hero, About, ShopByEssentials } from "./sections";
+import { Hero, About, ShopByEssentials, WhoWeAre } from "./sections";
 import Nav from "./components/Nav";
 
 export default function App() {
@@ -16,6 +16,10 @@ export default function App() {
 
       <section>
         <ShopByEssentials />
+      </section>
+
+      <section>
+        <WhoWeAre />
       </section>
       
     </main>
