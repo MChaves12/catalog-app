@@ -3,14 +3,14 @@ import {arrowDown, email} from "../assets/icons";
 
 export const Hero = () => {
   return (
-    <section className="flex flex-col px-2 justify-evenly mt-2 h-[800px]">
+    <section className="flex flex-col px-2 justify-evenly mt-2 h-[800px] md:flex-row md:h-[400px]">
 
-        <div className="bg-hero hero1 flex justify-evenly items-end pb-4">
+        <div className="bg-hero hero1 flex justify-evenly items-end pb-4 md:w-96">
             <Button label="SHOP NOW" backgroundColor="bg-white" textColor="text-black" icon={arrowDown} />
             <Button label="CONTACT US" textColor="text-white" icon={email} />
         </div>
 
-        <div className="flex flex-col justify-between h-[400px]">
+        <div className="flex flex-col justify-between h-[400px] md:w-96 md:h-96 md:gap-1">
             <div className=" bg-stone-300 h-52 rounded-xl flex flex-col justify-around">
                 <h1 className="mt-2 pl-8 font-montserrat text-[38px] leading-10 font-extrabold">
                     VISTA-SE DE <span className="text-red-400"> ATITUDE </span> USE AMARÍLIS.

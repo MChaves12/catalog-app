@@ -9,9 +9,9 @@ const ShopByEssentials = () => {
 
     return (
     <section>
-        <h3 className="font-montserrat w-full text-3xl text-center uppercase font-bold ">Shop By Essentials</h3>
+        <h3 className="font-montserrat w-full text-3xl text-center uppercase font-bold md:text-4xl md:mt-16 ">Shop By Essentials</h3>
 
-        <div className="flex justify-around px-2 gap-4 mt-5">
+        <div className="flex justify-around px-2 gap-4 mt-5 lg:w-[400px] lg:items-center">
             {btnNames.map((btnName) => (
                 <Button 
                     key={btnName} 
@@ -22,7 +22,7 @@ const ShopByEssentials = () => {
         </div>
         
         <div className="flex justify-center">
-            <div className="grid grid-cols-2 mt-8 gap-1 px-2">
+            <div className="grid grid-cols-2 mt-8 gap-1 px-2 lg:grid-cols-4">
                 {mockProducts.map((product) => (
                     <ProductCard key={product.name} {...product} />
                 ))}  
