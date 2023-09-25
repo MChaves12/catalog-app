@@ -49,11 +49,11 @@
   }
 
   .info-text {
-    @apply font-montserrat text-slate-gray text-base font-bold leading-4 w-96 pl-8;
+    @apply font-montserrat text-slate-gray text-sm font-bold leading-4  pl-8;
   }
 
   .hero1 {
-    @apply bg-cover bg-center w-[900px] h-[550px] rounded-2xl;
+    @apply bg-cover bg-center h-96 rounded-2xl;
   }
 
   .hero3 {

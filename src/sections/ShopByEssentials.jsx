@@ -9,9 +9,9 @@ const ShopByEssentials = () => {
 
     return (
     <section>
-        <h3 className="font-montserrat w-full text-4xl uppercase font-bold pl-[90px]">Shop By Essentials</h3>
+        <h3 className="font-montserrat w-full text-3xl text-center uppercase font-bold ">Shop By Essentials</h3>
 
-        <div className="flex justify-around gap-5 w-[500px] pl-[90px] mt-5">
+        <div className="flex justify-around px-2 gap-4 mt-5">
             {btnNames.map((btnName) => (
                 <Button 
                     key={btnName} 
@@ -22,13 +22,12 @@ const ShopByEssentials = () => {
         </div>
         
         <div className="flex justify-center">
-            <div className="grid grid-cols-4 mt-8 gap-5">
+            <div className="grid grid-cols-2 mt-8 gap-1 px-2">
                 {mockProducts.map((product) => (
                     <ProductCard key={product.name} {...product} />
                 ))}  
             </div>
-        </div>
-        
+        </div>    
     </section>
   )
 }
