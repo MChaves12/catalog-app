@@ -5,17 +5,17 @@ export const Hero = () => {
   return (
     <section className="flex flex-col px-2 justify-evenly mt-2 h-[800px] md:flex-row md:h-[400px]">
 
-        <div className="bg-hero hero1 flex justify-evenly items-end pb-4 md:w-96">
+        <div className="bg-hero hero1 flex justify-evenly items-end pb-4 md:w-96 lg:w-[900px] lg:h-[450px]">
             <Button label="SHOP NOW" backgroundColor="bg-white" textColor="text-black" icon={arrowDown} />
             <Button label="CONTACT US" textColor="text-white" icon={email} />
         </div>
 
-        <div className="flex flex-col justify-between h-[400px] md:w-96 md:h-96 md:gap-1">
-            <div className=" bg-stone-300 h-52 rounded-xl flex flex-col justify-around">
-                <h1 className="mt-2 pl-8 font-montserrat text-[38px] leading-10 font-extrabold">
+        <div className="flex flex-col justify-between h-[400px] md:w-96 md:h-96 md:gap-1 lg:w-[600px] lg:h-[450px]">
+            <div className=" bg-stone-300 h-52 rounded-xl flex flex-col justify-around lg:h-64">
+                <h1 className="mt-2 pl-8 font-montserrat text-[38px] leading-10 font-extrabold lg:text-[52px] lg:leading-[48px]">
                     VISTA-SE DE <span className="text-red-400"> ATITUDE </span> USE AMARÍLIS.
                 </h1>
-                <p className="info-text">
+                <p className="info-text lg:text-lg">
                     Queremo desafiar o obvio, o padrão, com um estilo unico e peças fantasticas.
                 </p>
             </div>

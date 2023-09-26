@@ -9,9 +9,9 @@ const ShopByEssentials = () => {
 
     return (
     <section>
-        <h3 className="font-montserrat w-full text-3xl text-center uppercase font-bold md:text-4xl md:mt-16 ">Shop By Essentials</h3>
+        <h3 className="font-montserrat w-full text-3xl text-center uppercase font-bold md:text-4xl md:mt-11 ">Shop By Essentials</h3>
 
-        <div className="flex justify-around px-2 gap-4 mt-5 lg:w-[400px] lg:items-center">
+        <div className="flex justify-around px-2 gap-4 mt-5 lg:justify-center">
             {btnNames.map((btnName) => (
                 <Button 
                     key={btnName} 
