@@ -1,7 +1,12 @@
-
-const Button = ({label, backgroundColor, textColor, icon}) => {
+const Button = ({label, backgroundColor, textColor, icon, products, checkCategory}) => {
+  
+  const handleClick = () => {
+    checkCategory(products, label)
+  }
+  
+  
   return (
-    <button className={`flex justify-between
+    <button onClick={handleClick} className={`flex justify-between
     items-center gap-2 pl-4 pr-4 py-4 border
     font-montserrat text-sm leading-none rounded-full 
     h-[35px] ${backgroundColor} ${textColor} 

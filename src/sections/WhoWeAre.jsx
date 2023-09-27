@@ -1,7 +1,7 @@
 
 const WhoWeAre = () => {
   return (
-    <section className="flex flex-col justify-center items-center px-2 gap-3 mt-12 md:flex-row">
+    <section id="about-us" className="flex flex-col justify-center items-center px-2 gap-3 mt-12 md:flex-row">
         <div className="w-full flex flex-col justify-between bg-red-500 rounded-3xl px-2 py-8 md:w-96 lg:w-[1000px] lg:h-[655px]">
             <h3 className="pl-8 font-montserrat uppercase text-4xl font-extrabold lg:w-[750px] lg:text-[72px] lg:leading-[72px]">
                 Nós Pensamos em Estilos de um jeito Diferente.

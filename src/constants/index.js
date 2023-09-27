@@ -12,41 +12,49 @@ export const mockProducts = [
         imgURL: anelPrata,
         name: "Anel de Prata",
         price: "$200.20",
+        category: "prata"
     },
     {
         imgURL: pulseiraBolinhaPrata,
         name: "Pulseira Bolinha Prata",
         price: "$200.20",
+        category: "prata"
     },
     {
         imgURL: pulseiraPrata,
         name: "Pulseira de Prata",
         price: "$200.20",
+        category: "prata"
     },
     {
         imgURL: brincoOuro,
         name: "Brinco de Ouro",
         price: "$200.20",
+        category: "ouro"
     },
     {
         imgURL: colarOuro,
         name: "Colar de Ouro",
         price: "$200.20",
+        category: "ouro"
     },
     {
         imgURL: pulseiraOuro,
         name: "Pulseira de Ouro",
         price: "$200.20",
+        category: "ouro"
     },
     {
         imgURL: colarOuro,
-        name: "Colar de Ouro",
+        name: "Colar de Ouro 24",
         price: "$200.20",
+        category: "ouro"
     },
     {
         imgURL: pulseiraOuro,
-        name: "Pulseira de Ouro",
+        name: "Pulseira de Ouro 24",
         price: "$200.20",
+        category: "ouro"
     },
 ];
 
